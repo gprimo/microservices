@@ -46,7 +46,7 @@ services:
       - 8080:8080
 
   product-api:
-    build: './product-api/product-api'
+    build: './product-api'
     container_name: product-api
     environment:
       - PORT=8081
